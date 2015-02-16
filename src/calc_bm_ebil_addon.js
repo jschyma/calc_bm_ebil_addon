@@ -17,7 +17,7 @@ function MyRechner(){
     };
 	/*CSS*/
 	var css = "";
-    css = ".myrechner_added{border-bottom-color:blue;}#myrechn_dlg{position:fixed;top:50px;right:20px;width:180px;height:200px;border-radius: 4px;padding: 5px;background-color: rgb(235, 235, 235);box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.26);}.myre_pos_div{font-size: 10pt;overflow: auto;background-color:white;width:160px;height:120px;}#myre_result{background-color:rgb(197, 195, 195);height:20px;text-align:right;font-weight: bold;}.myre_pos_div td:nth-child(3){text-align:right;} .myre_pos_div td:nth-child(4){font-size: 9pt}";
+    css = ".myrechner_added{border-bottom-color:blue;}#myrechn_dlg{position:fixed;top:50px;right:20px;width:180px;height:200px;border-radius: 4px;padding: 5px;background-color: rgb(235, 235, 235);box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.26);}.myre_pos_div{font-size: 7pt!important;overflow: auto;background-color:white;width:160px;height:120px;}#myre_result{background-color:rgb(197, 195, 195);height:20px;text-align:right;font-weight: bold;}.myre_pos_div td:nth-child(3){text-align:right;} .myre_pos_div td:nth-child(4){font-size: 6.5pt!important;}.myre_pos_div table{border-spacing: 2px;border-collapse: separate;white-space: nowrap;}";
 	var c=document.createElement("style");
 	$(c).attr("type","text/css").attr("id","myre_css").html(css);
 	$("head").append(c);
